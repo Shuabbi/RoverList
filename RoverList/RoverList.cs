@@ -9,11 +9,6 @@ namespace RoverList
     public class RoverList<T> : RoverListBase<T>
     {
         // Add any variables you need here
-        private int count;
-        public bool Empty
-        {
-            get { return this.count == 0;  }
-        }
         public RoverList ()
         {
 
